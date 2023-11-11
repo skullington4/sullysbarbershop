@@ -7,7 +7,7 @@ const Home = () => {
         <div className="top centerC">
             <img className='brandLogo' src={SullyLogo} alt="Sully's Logo" />
 
-            <div className='hours centerC'>
+            <div className='hours centerC space'>
                 <h2>Hours</h2>
                 <p>Monday: Closed</p>
                 <p>Tuesday: 9am-5pm</p>
@@ -18,12 +18,12 @@ const Home = () => {
                 <p>Sunday: Closed</p>
             </div>
 
-            <div className='location centerC'>
+            <div className='location centerC space'>
                 <h2>Location</h2>
                 <p>4606 W Ridge Rd, Spencerport, NY 14559</p>
             </div>
 
-            <div className='services centerC'>
+            <div className='services centerC space'>
                 <h2>Services</h2>
                 <div className='services centerC'>
                     <div className='service centerR'>
