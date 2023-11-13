@@ -130,6 +130,11 @@ nav a:active {
   margin: 40px;
 }
 
+.copy {
+  font-size: 25px;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
 
 }
