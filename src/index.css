@@ -180,11 +180,11 @@ nav a:active {
   }
 
   div, p {
-    font-size: 35px;
+    font-size: 4vmin;
   }
 
   h2 {
-    font-size: 50px;
+    font-size: 6vmin;
   }
 
   .top {
@@ -192,38 +192,9 @@ nav a:active {
   }
 
   footer {
-    font-size: 20px;
+    font-size: 3vmin;
   }
 
 }
 
-@media (max-width: 700px) {
-  
-  .bigText {
-    font-size: 30px;
-    font-weight: bold;
-  }
-  
-  .smallText {
-    font-size: 15px;
-    font-weight: bold;
-  }
-  
-  .mediumText {
-    font-size: 25px;
-    font-weight: bold;
-  }
-
-  div, p {
-    font-size: 20px;
-  }
-
-  h2 {
-    font-size: 30px;
-  }
-
-  .top {
-    margin-top: 100px;
-  }
-}
 
