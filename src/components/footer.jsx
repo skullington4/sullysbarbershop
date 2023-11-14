@@ -5,11 +5,11 @@ import { IconContext } from 'react-icons';
 function Footer() {
   return (
     <>
-      <div className='socials'>
+      <div className='social'>
         <IconContext.Provider value={{ className: 'socialIcon', color: '#2fa36c' }} >
         {/* <a href="https://twitter.com/sullysbarbers" target="_blank" rel="noopener noreferrer"><FaTwitter /></a> */}
-        <a href="https://www.facebook.com/p/Sullys-Barber-Shop-and-Salon-100063679297829/" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
-        <a href="https://instagram.com/tim_the_barberr?igshid=MTFpYnZwczF1Z2Vqaw==" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+        <a className='socials' href="https://www.facebook.com/p/Sullys-Barber-Shop-and-Salon-100063679297829/" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
+        <a className='socials' href="https://instagram.com/tim_the_barberr?igshid=MTFpYnZwczF1Z2Vqaw==" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
         </IconContext.Provider>
       </div>
       <div className='centerC'>

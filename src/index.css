@@ -96,6 +96,7 @@ nav a {
   margin: 5px;
   width: 40%;
   height: 45%;
+  border-radius: 5%;
 }
  
 .aboutP {
@@ -161,6 +162,10 @@ nav a:active {
   padding: 10px;
 }
 
+.socials {
+  margin: 2px;
+  font-size: 8vmin;
+}
 
 @media (max-width: 1000px) {
   
@@ -191,7 +196,7 @@ nav a:active {
     margin-top: 100px;
   }
 
-  footer {
+  .copy {
     font-size: 3vmin;
   }
 
