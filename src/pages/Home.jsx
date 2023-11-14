@@ -1,13 +1,21 @@
-import React from 'react';
+import { React, useState, useEffect, useRef } from 'react';
 import SullyLogo from '../Images/SullyLogo.JPG';
 
-const Home = () => {
+
+export default function Home() {
+
 
     return (
         <div className="top centerC">
             <img className='brandLogo' src={SullyLogo} alt="Sully's Logo" />
 
-            <div className='hours centerC space'>
+            <div className='location centerC space'>
+                <h2>Location</h2>
+                <div>In Joe D's barbershop at 4606 W Ridge Rd, Spencerport, NY 14559</div>
+
+            </div>
+
+            <div className='hours centerC space border'>
                 <h2>Hours</h2>
                 <p>Monday: Closed</p>
                 <p>Tuesday: 9am-5pm</p>
@@ -18,12 +26,8 @@ const Home = () => {
                 <p>Sunday: Closed</p>
             </div>
 
-            <div className='location centerC space'>
-                <h2>Location</h2>
-                <p>4606 W Ridge Rd, Spencerport, NY 14559</p>
-            </div>
-
-            <div className='services centerC space'>
+         
+            <div className='services centerC space border'>
                 <h2>Services</h2>
                 <div className='services centerC'>
                     <div className='service centerR'>
@@ -77,4 +81,3 @@ const Home = () => {
 }
 
 
-export default Home;
